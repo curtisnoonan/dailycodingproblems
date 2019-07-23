@@ -1,9 +1,13 @@
 # dailycodingproblems
 
-Daily Coding Problem #1: Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+Daily Coding Problem #1: This problem was recently asked by Google.
+
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
 Bonus: Can you do in one pass?
+
 Completed in GO.
 
+______________________________________________________________________________________________________________________________
 Daily Coding Problem #2: This problem was asked by Uber.
 
 Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
@@ -13,6 +17,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division?
 
 Work in Progress
+______________________________________________________________________________________________________________________________
 
 Daily Coding Problem #3: This problem was asked by Google.
 
@@ -31,3 +36,5 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 Work in Progress, binary tree created
+______________________________________________________________________________________________________________________________
+
