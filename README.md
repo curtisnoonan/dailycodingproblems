@@ -5,7 +5,7 @@ Daily Coding Problem #1: This problem was recently asked by Google.
 Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
 Bonus: Can you do in one pass?
 
-Completed in GO.
+Completed in GO. July 22, 2019
 
 ______________________________________________________________________________________________________________________________
 Daily Coding Problem #2: This problem was asked by Uber.
