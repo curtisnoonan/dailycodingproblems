@@ -2,16 +2,20 @@ package main
 
 import "fmt"
 
-// this is a comment
-
 func mult(x, y int) int {
 	return x * y
 }
+
 func main(){
 	a := [5]int{1, 2, 3, 4, 5}
-	for j := 0; j < len(a)-2; j++ {
-		temp := mult(a[j+1],a[j+2])
-		temp *= a[j+3]
-		fmt.Println(temp)
-    }
+	b := [5]int{0,0,0,0,0}
+	temp := 1
+	for k := 0; k < len(b); k++{
+		b[k] = temp/a[k]
+		temp = 1
+		for j := 0; j < len(a); j++{
+			temp *= a[j]
+		}
+	}
+	fmt.Println(b)
 }
