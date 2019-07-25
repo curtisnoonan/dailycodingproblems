@@ -38,3 +38,28 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 Work in Progress, binary tree created
 ______________________________________________________________________________________________________________________________
 
+Daily Coding Problem #4: This problem was asked by Stripe.
+
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
+
+You can modify the input array in-place.
+
+Completed in Python.
+______________________________________________________________________________________________________________________________
+
+Daily Coding Problem #5: This problem was asked by Jane Street.
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+Implement car and cdr.
+
+Completed in Python.
+______________________________________________________________________________________________________________________________
