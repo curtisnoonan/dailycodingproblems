@@ -35,3 +35,8 @@ def get(self,index):
 
 def _get_obj(id):
     return ctypes.cast(id, ctypes.py_object).value
+
+
+n = Node('a')
+x = XorLinkedList()
+x.add(n)
